@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Test WebSocket Client</title>
+</head>
+<body>
+<br /><br />
+
+<script src="socket.js" type="text/javascript"></script>
+
+Server address:
+<input id="sock-addr" type="text" value="ws://127.0.0.1"><br />
+Message:
+<input id="sock-msg" type="text">
+
+<input id="sock-send-butt" type="button" value="send">
+<br />
+<br />
+<input id="sock-recon-butt" type="button" value="reconnect"><input id="sock-disc-butt" type="button" value="disconnect">
+<br />
+<br />
+
+WS Console: 
+<div id="sock-info" style="border: 1px solid"> </div>
+
+</body>
+</html>
